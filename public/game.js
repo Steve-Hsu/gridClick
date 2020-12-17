@@ -49,12 +49,13 @@ for (let i = 0; i < 10; i++) {
     console.log(top)
 }
 
-const elementTop = document.createElementNS(xmlns, 'polygon')
-elementTop.setAttribute('points', '250,0 300,133 ,240,88 , 190, 50 , 200, 20')
-elementTop.setAttribute('style', "fill: red; stroke: green; stroke-width: 1")
-elementTop.setAttribute('pointer-events', "none")
+//Red block
+// const elementTop = document.createElementNS(xmlns, 'polygon')
+// elementTop.setAttribute('points', '250,0 300,133 ,240,88 , 190, 50 , 200, 20')
+// elementTop.setAttribute('style', "fill: red; stroke: green; stroke-width: 1")
+// elementTop.setAttribute('pointer-events', "none")
 
-svg.appendChild(elementTop)
+// svg.appendChild(elementTop)
 
 polygon1.addEventListener('click', baseSquareOnClick)
 
